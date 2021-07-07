@@ -9,7 +9,7 @@ import MovieList from "./components/MovieList";
 function App() {
   return (
     <div className="App">
-      <SimpleList />
+      {/* <SimpleList /> */}
       {/* <StudentList /> */}
       {/* <ImprovedStudentList /> */}
       {/* <ProjectList /> */}
