@@ -1,10 +1,10 @@
-// 2
+const students = ["Marc", "Lucy", "Anna"];
+
 function StudentList() {
-  const students = ["Marc", "Lucy", "Anna"];
 
   return (
     <div className="list">
-      <h2>StudentList</h2>
+      <h2>Student List</h2>
       { students.map((name) => <p>{name}</p> ) }
     </div>
   );
