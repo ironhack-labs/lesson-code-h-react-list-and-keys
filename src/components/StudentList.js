@@ -1,6 +1,7 @@
 // 2
+const students = ["Marc", "Lucy", "Anna"];
+
 function StudentList() {
-  const students = ["Marc", "Lucy", "Anna"];
 
   return (
     <div className="list">
