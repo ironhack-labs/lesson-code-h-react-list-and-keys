@@ -21,10 +21,13 @@ function MovieList() {
   return (
     <div>
       <h2>Movie List</h2>
-      {movies.map((movie) => <MovieCard movieP={movie} deleteMovieP={deleteMovie} />)}
+      {movies.map((movie) => {
+        return <MovieCard key={movie._id} movie={movie} clickToDelete={deleteMovie}/>
+      })}
     </div>
   )
 }
+
 
 export default MovieList;
 

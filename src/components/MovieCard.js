@@ -1,18 +1,18 @@
 import React from 'react'
 
 function MovieCard(props) {
-  const { movieP, deleteMovieP } = props;
+  const { movie, clickToDelete } = props;
 
   return (
     <div className="MovieCard">
-      <h3>{movieP.title}</h3>
-      <p>Director: {movieP.director}</p>
-      <p>Rating: {movieP.IMDBRating}</p>
-      <button onClick={() => deleteMovieP(movieP._id)} className="btn-delete">
+      <h3>{movie.title}</h3>
+      <p>Director: {movie.director}</p>
+      <p>Rating: {movie.IMDBRating}</p>
+      <button onClick={ () => clickToDelete(movie._id) } className="btn-delete">
         Delete 🗑
       </button>
     </div>
   )
 }
 
-export default MovieCard
+export default MovieCard;
