@@ -1,13 +1,9 @@
 // 6
 import { useState } from 'react';
-
-// Array of movies
 import moviesData from '../movies-data.json';
 import MovieCard from './MovieCard';
 
 function MovieList() {
-  // Declare a state variable "movies"
-  // and set the array from movies-data.json as the initial state
   const [movies, setMovies] = useState(moviesData);
 
   const deleteMovie = (movieId) => {
