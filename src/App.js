@@ -1,7 +1,7 @@
 import "./App.css";
-import List from "./components/List";
-import StudentList from "./components/StudentList";
-import ProjectList from "./components/ProjectList";
+// import List from "./components/List";
+// import StudentList from "./components/StudentList";
+// import ProjectList from "./components/ProjectList";
 import MovieList from "./components/MovieList";
 
 
